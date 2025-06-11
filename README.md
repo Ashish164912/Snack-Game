@@ -1,1 +1,1 @@
-# Snack-Game.io
+# Snack-Game
