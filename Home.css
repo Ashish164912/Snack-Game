@@ -1,0 +1,35 @@
+body{
+    /* background-image: url(https://media.istockphoto.com/id/1404252646/vector/abstract-geometric-background-purple-shapes-composition-for-poster-flyer-and-landing-page.jpg?s=612x612&w=0&k=20&c=Nn6mJXx2yUdbM6-YI_sywYFGTfl58KX7O9n0o41Ypyg=); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+#snack_logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.recode{
+    width: 90%;
+    height: 60px;
+    /* background-color: red; */
+    font-size: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 2px aquamarine;
+    font-weight: bold;
+    margin-left: -5px;
+}
+.leaf_icon{
+    border-radius: 10px;
+    color: rgb(17, 215, 50);
+}
+.simple_button{
+    width: 50%;
+    height: 50px;
+}
+.card-header a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
