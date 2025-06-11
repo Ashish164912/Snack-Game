@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    /* background-color: #d2c2a0ec; */
+    /* background-image: url(https://w0.peakpx.com/wallpaper/440/913/HD-wallpaper-snake-pass-and-background-snake-game.jpg); */
+    background-image: url(https://cdn.wallpapersafari.com/90/1/mVU6NQ.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+  }
+  canvas {
+    background-color: #181825;
+  
+    height: 360px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 5px aqua;
+  }
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  #ui {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  #score {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .noselect {
+    user-select: none;
+  }
+  #replay {
+   
+    font-size: 15px;
+    padding: 10px 20px;
+    background: #6e7888;
+    border: none;
+    color: #222738;
+    /* border-radius: 20px; */
+    font-weight: 800;
+    cursor: pointer;
+    /* transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1); */
+    margin-bottom: 10px;
+  }
+  #replay:hover {
+    background: #a6aab5;
+    background: #4cffd7;
+    transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  /* @media (max-width: 600px) {
+    #replay {
+      margin-bottom: 20px;
+    }
+    #replay,
+    h2 {
+      transform: rotate(0deg);
+    }
+    #ui {
+      flex-flow: row wrap;
+      margin-bottom: 20px;
+    }
+    #score {
+      margin-top: 0;
+      margin-left: 20px;
+    }
+    .container {
+      flex-flow: column wrap;
+    }
+  }
+  #author {
+    text-align: center;
+    padding-bottom: 10px;
+  
+  }
+
+  #game_img +span{
+    display: inline;
+   } */
